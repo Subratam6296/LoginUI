@@ -1,0 +1,36 @@
+/* Profile.css */
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+.card {
+  height: 250px;
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+}
